@@ -1,0 +1,1 @@
+SELECT encrypt_option, COUNT(*) FROM sys.dm_exec_connections GROUP BY encrypt_option

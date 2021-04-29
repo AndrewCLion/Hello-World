@@ -1,0 +1,10 @@
+SELECT TOP 2000 [CreateTime]
+      ,[ExecTime]
+      ,[MaxVersionID]
+      ,[VersionCnt]
+      ,[DeleteCnt]
+      ,[IdentCalcCnt]
+      ,[RoleAssnCnt]
+      ,[AddMember]
+      ,[DelMember]
+  FROM [Deployment.GUMSArchiving].[dbo].[_ArchiveLog] order by CreateTime desc
